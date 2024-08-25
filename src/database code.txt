@@ -1,0 +1,45 @@
+create datbase ebs;
+use ebs;
+create table bill(
+meternumber varchar(30),
+tfunits varchar(30),
+cmonth varchar(30),
+status varchar(30),
+totalbill varchar(30)
+);
+
+create table customer(
+tfname varchar(30),
+lblmeter varchar(30),
+tfaddress varchar(30),
+tfcity varchar(30),
+tfstate varchar(30),
+tfemail varchar(30),
+tfphone varchar(30)
+);
+create table login(
+meter varchar(30),
+username varchar(30),
+name varchar(30),
+password varchar(30),
+accountType varchar(30),
+user varchar(30)
+)
+;
+create table meter_info(
+meternumber varchar(30),
+meterlocation varchar(30),
+metertype varchar(30),
+billtype varchar(30),
+days varchar(30)
+
+)
+;
+create table tax(
+cost_per_unit varchar(30),
+meter_rent varchar(30),
+service_charge varchar(30),
+service_tax varchar(30),
+swacch_bharat_cess varchar(30),
+fixed_tax varchar(30
+);
